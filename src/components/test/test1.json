@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_test_test1s",
+  "info": {
+    "displayName": "test1",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "val1": {
+      "type": "string"
+    },
+    "val2": {
+      "type": "json",
+      "required": false
+    },
+    "val3": {
+      "type": "date",
+      "default": "2023-06-20"
+    },
+    "val4": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

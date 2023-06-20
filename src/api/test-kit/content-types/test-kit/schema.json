@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_kits",
+  "info": {
+    "singularName": "test-kit",
+    "pluralName": "test-kits",
+    "displayName": "Test Kit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bar_code": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "available_devises": {
+      "type": "enumeration",
+      "enum": [
+        "ios v-4",
+        "ios v-5",
+        "iosv-6"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
